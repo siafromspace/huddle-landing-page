@@ -1,0 +1,53 @@
+:root {
+    --pink: hsl(322, 100%, 66%);
+    --veryPaleCyan: hsl(193, 100%, 96%);
+    --veryDarkCyan: hsl(192, 100%, 9%);
+    --grayishBlue: hsl(208, 11%, 55%);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+}
+#showcase {
+    width: 100%;
+    height: 100%;
+    background: url('images/bg-hero-desktop.svg'), var(--veryPaleCyan);
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.showcase-header {
+    display: flex;
+    justify-content: space-between;
+}
+.showcase-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.showcase-content-two {
+    width: 60%;
+}
+
+
+
+/*UTILITIES*/
+.align-logo {
+    width: 15%;
+    height: 50%;
+}
+.btn-one {
+    background-color: white;
+    color: var(--veryDarkCyan);
+    border-radius: 50px;
+    padding: 0.7rem 2.6rem;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-weight: 700;
+}
