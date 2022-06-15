@@ -267,10 +267,14 @@ footer .footer {
     #card-one, #card-three {
         display: flex;
         flex-direction: column-reverse;
+        gap: 5rem;
     }
     footer .get-started {
-        padding: 2rem 4.5rem;
+        padding: 2rem 4rem;
         top: -18%;
+    }
+    footer .get-started h3 {
+        font-size: 1.2rem;
     }
     footer .footer {
         flex-direction: column;
