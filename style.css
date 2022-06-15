@@ -267,6 +267,7 @@ footer .footer {
     #card-one, #card-three {
         display: flex;
         flex-direction: column-reverse;
+        height: 100%;
         gap: 5rem;
     }
     footer .get-started {
